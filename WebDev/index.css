@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Open+Sans');
+html, body{
+  font-family: 'Open Sans', sans-serif;
+  color:#222;
+  background: #eee;
+  background: -webkit-linear-gradient(90deg, #ddd 10%, #eee 90%);
+  /* Chrome 10+, Saf5.1+ */ 
+  background: -moz-linear-gradient(90deg, #ddd 10%, #eee 90%); 
+  /* FF3.6+ */ 
+  background: linear-gradient(90deg, #ddd 10%, #eee 90%); 
+  /* W3C */
+  }
+a{
+  text-decoration:none;
+  color:blue;
+}
+a:hover{
+  color:blue;
+  text-decoration: underline;
+}
+img{
+  width:75px;
+  height:auto;
+  }
+#container{
+  width: 800px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:-8px;/* Used to make the header touch the top of the browser*/
+  background:white;
+}
+#header{
+  width:770px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:15px;
+  background:orange;
+  background: -webkit-linear-gradient(90deg, #FFA500 10%, #FFB000 90%);
+  /* Chrome 10+, Saf5.1+ */ 
+  background: -moz-linear-gradient(90deg, #FFA500 10%, #FFB000 90%); 
+  /* FF3.6+ */ 
+  background: linear-gradient(90deg, #FFA500 10%, #FFB000 90%); 
+  /* W3C */
+  border-bottom:2px solid #999;
+}
+#header h1{
+  letter-spacing:.2em;
+  display:inline;
+  font-family: 'Cutive Mono', monospace;
+}
+#header #nav{
+  float:right;
+  display:inline;
+  margin-right: 10px;
+}
+#nav ul li{
+  list-style: none;
+}
+
+#content{
+  width:750px;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top:15px;
+  
+}
+#skills{
+  /*border-style:solid;*/
+  width:224px;
+  padding:10px;
+  float:left;
+  clear: both;
+}
+#bio{
+   /*border-style:solid;*/
+  width:464px;
+  padding:10px;
+  display:inline-block;
+  margin-left:10px;
+}
+#links{
+  margin-top: 15px;
+  padding:10px;
+  
+}
+#firstphoto{
+  display: inline;
+}
+#secondphoto{
+  display: inline;
+  margin-left:143px;
+  margin-right:71px;
+}
+#thirdphoto{
+  display: inline;
+  margin-right: 130px;
+  margin-left:71px;
+}
+#lastphoto{
+  display: inline;
+}
+#footer{
+  border-top:2px solid #999;
+  clear:both;
+  padding:10px;
+  background:#555;
+  margin-top:10px;
+  color:white;
+  height:100px;
+}

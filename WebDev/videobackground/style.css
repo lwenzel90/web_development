@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Open+Sans');
 body, html{
 	margin:0;
 	padding:0;
 	overflow-x: hidden;
-	overflow-y: hidden;
+	overflow-y:;
+	z-index: 3;
+	font-family: 'Open Sans', sans-serif;
 }
 
 video{
@@ -21,19 +24,40 @@ video{
 	position: absolute;
 	z-index: 2;
 	background: rgba(0,0,0,.2);
-	top:0;
+	top:100px;
 	bottom:0;
 	left:0;
 	right:0;
-	
 }
 
 .text h1{
 	color:white;
-	font-family: Georgia, serif;
+	font-family: 'Cutive Mono', monospace;
 }
 
 .text img{
 	width:250px;
 	border-radius: 100%;
+}
+
+#about {
+	position: absolute;
+	width:100%;
+	height: 400px;
+	background: white;
+	z-index: 2;
+	top:600px;
+	bottom:0;
+	margin: 0 auto;
+
+}
+.container{
+	max-width: 900px;
+	min-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about h3{
+	text-align: center;
 }

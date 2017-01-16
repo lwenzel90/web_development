@@ -5,6 +5,7 @@ body, html{
 	overflow-x: hidden;
 	overflow-y:;
 	z-index: 3;
+	max-width: 100%;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -49,7 +50,7 @@ video{
 	top:90%;
 	bottom:0;
 	margin: 0 auto;
-
+	font-size: 20px;
 }
 .container{
 	max-width: 900px;
@@ -72,6 +73,8 @@ video{
 	font-size: 28px;
 }
 
+
+
 #contact{
 	position: absolute;
 	width:100%;
@@ -88,3 +91,30 @@ video{
 	margin-right: 10%;
 }
 
+@media screen and (max-width: 900px) and (min-width:700px ){
+	#contact {
+		top:150%;
+	}
+
+	.container{
+		width:90%;
+	}
+}
+
+@media screen and (max-width: 700px) and (min-width:500px ){
+	#contact {
+		top:160%;
+	}
+	.container{
+		width:90%;
+	}
+}
+
+@media screen and (max-width: 500px) and (min-width:0px ){
+	#contact {
+		top:170%;
+	}
+	.container{
+		width:90%;
+	}
+}

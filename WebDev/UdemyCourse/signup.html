@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sign up | Logan Wenzel</title>
+</head>
+<body>
+	<h1>Sign up for newsletter</h1>
+	<form action="">
+		<div>
+			<label for="firstname">
+				First Name:
+				<input type="text" id="firstname" placeholder="John" name="firstname" required>
+			</label>
+			<label for="lastname">
+				Last Name:
+				<input type="text" id="lastname" placeholder="Smith" name="lastname" required>
+			</label>
+		</div>
+			
+		<div>
+			<label for="Male">
+				Male
+				<input type="radio" id="Male" name="gender" value="male">
+			</label>
+			<label for="Female">
+				Female
+				<input type="radio" id="Female" name="gender" value="female">
+			</label>
+			<label for="Other">
+				Other
+				<input type="radio" id="Other" name="gender" value="other">
+			</label>
+		</div>
+
+		<div>
+			<label for="email">
+				Email:
+				<input type="email" placeholder="your email" required>
+			</label>	
+			<label for="password">
+				Password:
+				<input type="password" placeholder="your password" pattern=".{5,}" required title="5 Characters required" required>
+			</label>
+		</div>
+
+		<div>
+			<label for="birthday">
+				Birthday:
+				<select name="month" id="month">
+					<option value="jan">mon1</option>
+					<option value="feb">mon2</option>
+					<option value="mar">mon3</option>
+				</select>
+			</label>
+		</div>
+
+		<div>
+			<label for="agree">
+				I agree to the terms and conditions 
+				<input type="checkbox" required>
+			</label>
+		</div>
+
+		<div>
+			<input type="submit">
+		</div>
+			
+	</form>
+</body>
+</html>
